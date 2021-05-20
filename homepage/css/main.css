@@ -118,9 +118,9 @@ textarea {
   footer .social-icons p {
     display: flex;
     justify-content: center;
-    
     align-items: center;
   }
+
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
 /* Hero Area */
@@ -130,6 +130,7 @@ textarea {
   justify-content: center;
   flex-flow: row wrap;
 }
+
 /* Aside */
 
 aside {
@@ -140,6 +141,7 @@ aside {
 }
 
 /*Features*/
+
 .features {
   display: flex;
   justify-content: center;
