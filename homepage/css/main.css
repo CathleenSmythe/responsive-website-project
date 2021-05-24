@@ -83,6 +83,10 @@ textarea {
   resize: vertical;
 }
 
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -93,15 +97,20 @@ textarea {
    align-items: center;
    flex-flow: row wrap;
   }
+  header {
+    padding: 15px 0;
+  }
    header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-flow: row wrap;  
+    flex-flow: row wrap;
+    width: 60%;  
   }
    header nav ul {
     display: flex;
     justify-content: space-around;
+    width: 100%;
   }
    header .content-wrapper {
     display: flex;
@@ -109,6 +118,15 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
   }
+  .header-divider {
+    width: 100%;
+    height: 1px;
+    margin: 10px 0 20px 0;
+  }
+   footer .content-wrapper {
+     width: 55%;
+     margin: 50px 0;
+   }
    footer .social-icons {
     display: flex;
     justify-content: space-around;
