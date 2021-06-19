@@ -537,6 +537,7 @@ header nav {
 }
 header nav ul {
   justify-content: space-between;
+  padding: 0;
 }
 .header-divider {
  display: none;
